@@ -1,70 +1,120 @@
 @charset "UTF-8";
-.post .post-content h1 {
+.post .post-content h1,
+.comment .box .com-text .main .text-area-preview h1,
+.comment .list-wrap .list .user-comment .user-comment-body h1 {
   font-size: 2em;
 }
-.post .post-content h2 {
+.post .post-content h2,
+.comment .box .com-text .main .text-area-preview h2,
+.comment .list-wrap .list .user-comment .user-comment-body h2 {
   font-size: 1.6em;
 }
-.post .post-content h3 {
+.post .post-content h3,
+.comment .box .com-text .main .text-area-preview h3,
+.comment .list-wrap .list .user-comment .user-comment-body h3 {
   font-size: 1.4em;
 }
-.post .post-content h4 {
+.post .post-content h4,
+.comment .box .com-text .main .text-area-preview h4,
+.comment .list-wrap .list .user-comment .user-comment-body h4 {
   font-size: 1.2em;
 }
-.post .post-content h5 {
+.post .post-content h5,
+.comment .box .com-text .main .text-area-preview h5,
+.comment .list-wrap .list .user-comment .user-comment-body h5 {
   font-size: 1em;
 }
-.post .post-content h6 {
+.post .post-content h6,
+.comment .box .com-text .main .text-area-preview h6,
+.comment .list-wrap .list .user-comment .user-comment-body h6 {
   font-size: 1em;
   color: #999;
 }
-.post .post-content hr {
+.post .post-content hr,
+.comment .box .com-text .main .text-area-preview hr,
+.comment .list-wrap .list .user-comment .user-comment-body hr {
   border: 1px dashed #ddd;
 }
-.post .post-content strong {
+.post .post-content strong,
+.comment .box .com-text .main .text-area-preview strong,
+.comment .list-wrap .list .user-comment .user-comment-body strong {
   font-weight: bold;
 }
 .post .post-content em,
-.post .post-content cite {
+.comment .box .com-text .main .text-area-preview em,
+.comment .list-wrap .list .user-comment .user-comment-body em,
+.post .post-content cite,
+.comment .box .com-text .main .text-area-preview cite,
+.comment .list-wrap .list .user-comment .user-comment-body cite {
   font-style: italic;
 }
 .post .post-content sup,
-.post .post-content sub {
+.comment .box .com-text .main .text-area-preview sup,
+.comment .list-wrap .list .user-comment .user-comment-body sup,
+.post .post-content sub,
+.comment .box .com-text .main .text-area-preview sub,
+.comment .list-wrap .list .user-comment .user-comment-body sub {
   font-size: 0.75em;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-.post .post-content sup {
+.post .post-content sup,
+.comment .box .com-text .main .text-area-preview sup,
+.comment .list-wrap .list .user-comment .user-comment-body sup {
   top: -0.5em;
 }
-.post .post-content sub {
+.post .post-content sub,
+.comment .box .com-text .main .text-area-preview sub,
+.comment .list-wrap .list .user-comment .user-comment-body sub {
   bottom: -0.2em;
 }
-.post .post-content small {
+.post .post-content small,
+.comment .box .com-text .main .text-area-preview small,
+.comment .list-wrap .list .user-comment .user-comment-body small {
   font-size: 0.85em;
 }
 .post .post-content acronym,
-.post .post-content abbr {
+.comment .box .com-text .main .text-area-preview acronym,
+.comment .list-wrap .list .user-comment .user-comment-body acronym,
+.post .post-content abbr,
+.comment .box .com-text .main .text-area-preview abbr,
+.comment .list-wrap .list .user-comment .user-comment-body abbr {
   border-bottom: 1px dotted;
 }
 .post .post-content ul ul,
+.comment .box .com-text .main .text-area-preview ul ul,
+.comment .list-wrap .list .user-comment .user-comment-body ul ul,
 .post .post-content ol ul,
+.comment .box .com-text .main .text-area-preview ol ul,
+.comment .list-wrap .list .user-comment .user-comment-body ol ul,
 .post .post-content ul ol,
-.post .post-content ol ol {
+.comment .box .com-text .main .text-area-preview ul ol,
+.comment .list-wrap .list .user-comment .user-comment-body ul ol,
+.post .post-content ol ol,
+.comment .box .com-text .main .text-area-preview ol ol,
+.comment .list-wrap .list .user-comment .user-comment-body ol ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-.post .post-content ul {
+.post .post-content ul,
+.comment .box .com-text .main .text-area-preview ul,
+.comment .list-wrap .list .user-comment .user-comment-body ul {
   list-style: disc;
 }
-.post .post-content ol {
+.post .post-content ol,
+.comment .box .com-text .main .text-area-preview ol,
+.comment .list-wrap .list .user-comment .user-comment-body ol {
   list-style: decimal;
 }
-.post .post-content dt {
+.post .post-content dt,
+.comment .box .com-text .main .text-area-preview dt,
+.comment .list-wrap .list .user-comment .user-comment-body dt {
   font-weight: bold;
 }
-.post .post-content table {
+.post .post-content table,
+.comment .box .com-text .main .text-area-preview table,
+.comment .list-wrap .list .user-comment .user-comment-body table {
   display: table;
   font-size: 12px;
   background-color: transparent;
@@ -77,15 +127,23 @@
   word-wrap: break-word;
 }
 .post .post-content table th,
-.post .post-content table td {
+.comment .box .com-text .main .text-area-preview table th,
+.comment .list-wrap .list .user-comment .user-comment-body table th,
+.post .post-content table td,
+.comment .box .com-text .main .text-area-preview table td,
+.comment .list-wrap .list .user-comment .user-comment-body table td {
   border-bottom: solid 1px #ddd;
   border-right: solid 1px #ddd;
   padding: 5px 10px;
 }
-.post .post-content table thead tr {
+.post .post-content table thead tr,
+.comment .box .com-text .main .text-area-preview table thead tr,
+.comment .list-wrap .list .user-comment .user-comment-body table thead tr {
   background-color: #f6f6f6;
 }
-.post .post-content blockquote {
+.post .post-content blockquote,
+.comment .box .com-text .main .text-area-preview blockquote,
+.comment .list-wrap .list .user-comment .user-comment-body blockquote {
   margin: 1em 0;
   padding: 5px 10px;
   color: #666;
@@ -1351,6 +1409,291 @@ pre .javascript .function {
   text-indent: -9999px;
   overflow: hidden;
   z-index: 5;
+}
+.comment {
+  margin-top: 10px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.comment .box {
+  position: relative;
+  width: 100%;
+}
+.comment .box .com-avatar {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.comment .box .com-avatar img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.comment .box .com-text {
+  position: relative;
+  margin-left: 45px;
+  height: 120px;
+  border: 2px solid #eee;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.comment .box .com-text .switch {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 81px;
+  height: 10px;
+  line-height: 10px;
+  padding: 5px 0;
+}
+.comment .box .com-text .switch .switch-item {
+  float: left;
+  width: 40px;
+  height: 10px;
+  color: #999;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.comment .box .com-text .switch :first-child {
+  border-right: 1px solid #ccc;
+}
+.comment .box .com-text .switch .on {
+  color: #ff5e52;
+}
+.comment .box .com-text .main {
+  margin: 0;
+  padding: 0;
+}
+.comment .box .com-text .main .text-area-edited {
+  display: none;
+  width: 100%;
+  height: 116px;
+  padding: 10px;
+  border: none;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+}
+.comment .box .com-text .main .text-area-preview {
+  display: none;
+  width: 100%;
+  height: 116px;
+  padding: 10px;
+  border: none;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.comment .box .com-text .main .text-area-preview p {
+  margin: 0;
+}
+.comment .box .com-text .main .show {
+  display: block;
+}
+.comment .box .com-text .button {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  -ms-border-radius: 0 0 2px 0;
+  -moz-border-radius: 0 0 2px 0;
+  -webkit-border-radius: 0 0 2px 0;
+  -o-border-radius: 0 0 2px 0;
+  border-radius: 0 0 2px 0;
+  color: #fff;
+  background-color: #ff5e52;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.comment .box .com-text .button:hover {
+  opacity: 0.7;
+}
+.comment .sign-bar {
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 12px;
+}
+.comment .sign-bar .sign-link {
+  margin-left: 5px;
+  color: #ff5e52;
+  cursor: pointer;
+  border: none;
+}
+.comment .sign-bar .sign-txt {
+  color: #999;
+}
+.comment .tips {
+  height: 30px;
+  line-height: 30px;
+  margin-left: 45px;
+  font-size: 12px;
+  color: #999;
+}
+.comment .tips .init {
+  color: #999;
+  float: right;
+}
+.comment .list-wrap {
+  margin-top: 10px;
+}
+.comment .list-wrap .list-header {
+  margin: 0;
+  padding: 0 0 0 15px;
+  font-size: 12px;
+  border-left: 2px solid #eee;
+}
+.comment .list-wrap .list-header .comments-num {
+  color: #ff5e52;
+  font-size: 14px;
+}
+.comment .list-wrap .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.comment .list-wrap .list .item {
+  position: relative;
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.comment .list-wrap .list .user-avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.comment .list-wrap .list .user-avatar img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.comment .list-wrap .list .user-avatar a {
+  border: none;
+}
+.comment .list-wrap .list .user-comment {
+  min-height: 50px;
+  margin-left: 50px;
+}
+.comment .list-wrap .list .user-comment .user-comment-body {
+  margin: 5px 0;
+  color: #666;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.comment .list-wrap .list .user-comment .user-comment-body p {
+  margin: 0;
+}
+.comment .list-wrap .list .user-comment .user-comment-body a {
+  border: none;
+  color: #ff5e52;
+}
+.comment .list-wrap .list .user-comment .user-comment-body ul,
+.comment .list-wrap .list .user-comment .user-comment-body ol {
+  list-style-position: inside;
+}
+.comment .list-wrap .list .user-comment .user-comment-header {
+  color: #aaa;
+  position: relative;
+}
+.comment .list-wrap .list .user-comment .user-comment-header span {
+  margin-right: 5px;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .post-name {
+  font-size: 12px;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .post-time {
+  font-size: 10px;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .like {
+  font-size: 10px;
+  color: #ff5e52;
+  cursor: pointer;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .like.liked {
+  color: #aaa;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .like-num {
+  font-size: 10px;
+}
+.comment .list-wrap .list .user-comment .user-comment-header .reply {
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.comment .list-wrap .list .user-comment:hover .user-comment-header .reply {
+  display: block;
+}
+.comment .page-nav {
+  margin-top: 10px;
+  text-align: right;
+}
+.comment .page-nav .item {
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  margin: 0 2px;
+  padding: 8px 10px;
+  font-size: 10px;
+  background-color: #eee;
+  opacity: 0.8;
+  text-align: center;
+  border: none;
+}
+.comment .page-nav .item.current {
+  color: #fff;
+  background-color: #ff5e52;
+  cursor: not-allowed;
+}
+.comment .page-nav .more {
+  height: 10px;
+  line-height: 10px;
+  padding: 8px 5px;
+  font-size: 10px;
+  text-align: center;
+}
+.comment .text-area-preview ul,
+.comment .text-area-preview ol {
+  list-style-position: inside;
 }
 /*
  * 响应式媒体查询
